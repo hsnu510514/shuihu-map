@@ -38,4 +38,9 @@ export function applyUrlState() {
       state.selectFigure(figureId)
     }
   }
+  if (window.location.pathname.includes('/biographies')) {
+    const figureId = params.get('figure')
+    if (figureId && figureById[figureId]) state.selectFigure(figureId)
+    else state.selectFigure(null)
+  }
 }

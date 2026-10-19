@@ -102,6 +102,15 @@ export function RankingPersonDetail({ category, entry, onClose }: RankingPersonD
           看好漢行蹤 →
         </button>
       )}
+      {figure && (
+        <button
+          type="button"
+          className="ranking-detail-link"
+          onClick={() => navigate(`/biographies?figure=${figure.id}`)}
+        >
+          看人物誌 →
+        </button>
+      )}
     </aside>
   )
 }

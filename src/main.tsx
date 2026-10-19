@@ -12,7 +12,9 @@ const initialMode = window.location.pathname.includes('/relations')
     ? 'heroes'
     : window.location.pathname.includes('/rankings')
       ? 'rankings'
-      : 'story'
+      : window.location.pathname.includes('/biographies')
+        ? 'biographies'
+        : 'story'
 useAppStore.getState().setMode(initialMode)
 applyUrlState()
 

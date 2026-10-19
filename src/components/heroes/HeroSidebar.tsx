@@ -1,4 +1,5 @@
 ﻿import { useEffect, useMemo, useRef, useState, type RefObject } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { Search, X } from 'lucide-react'
 import { arcForChapter } from '../../data/arcs'
 import { chapterByNumber } from '../../data/chapters'
@@ -82,6 +83,7 @@ function HeroDetail({
   const chapter = useAppStore((store) => store.chapter)
   const setChapter = useAppStore((store) => store.setChapter)
   const selectHero = useAppStore((store) => store.selectHero)
+  const navigate = useNavigate()
   const place = state.placeId ? placeById[state.placeId] : null
   const anchors = anchorsForHero(state.hero.id).filter((anchor) => anchor.chapter <= chapter)
 
@@ -126,6 +128,13 @@ function HeroDetail({
           <dd>{fate}</dd>
         </div>
       </dl>
+      <button
+        type="button"
+        className="hero-detail-bio-link"
+        onClick={() => navigate(`/biographies?figure=${state.hero.id}`)}
+      >
+        看人物誌 →
+      </button>
       {others.length > 0 && (
         <div className="hero-detail-others">
           <div className="hero-detail-others-head">

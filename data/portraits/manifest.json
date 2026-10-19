@@ -1,0 +1,2401 @@
+{
+  "note": "人物畫像公版來源清單。commons 為 Wikimedia Commons 檔名；build:portraits 產生 src/data/portraits.ts，fetch:portraits 下載縮圖至 public/portraits/。",
+  "figures": {
+    "lin-chong": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 -林冲.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "林冲（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "dsczs",
+        "label": "第五才子書水滸傳",
+        "era": "清刻本",
+        "license": "pd",
+        "commons": "林冲（第五才子書水滸傳）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/lin-chong-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "gong-sun-sheng": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 公孫勝.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "公孙榺（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/gong-sun-sheng-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "guan-sheng": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 關勝.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "𨵿榺（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/guan-sheng-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "hua-rong": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 花榮.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "花荣（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/hua-rong-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "zhu-tong": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 朱仝.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "朱仝（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "dsczs",
+        "label": "第五才子書水滸傳",
+        "era": "清刻本",
+        "license": "pd",
+        "commons": "朱仝（第五才子書水滸傳）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/zhu-tong-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "zhang-qing": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 張清.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "張清（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "dsczs",
+        "label": "第五才子書水滸傳",
+        "era": "清刻本",
+        "license": "pd",
+        "commons": "張清（第五才子書水滸傳）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/zhang-qing-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "yang-zhi": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 楊志.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "楊志（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "dsczs",
+        "label": "第五才子書水滸傳",
+        "era": "清刻本",
+        "license": "pd",
+        "commons": "楊志（第五才子書水滸傳）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/yang-zhi-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "xu-ning": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 徐寧.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "徐寧（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "dsczs",
+        "label": "第五才子書水滸傳",
+        "era": "清刻本",
+        "license": "pd",
+        "commons": "徐寧（第五才子書水滸傳）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/xu-ning-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "suo-chao": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 索超.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "索超（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/suo-chao-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "dai-zong": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 戴宗.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "戴宗（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/dai-zong-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "liu-tang": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 劉唐.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "劉唐（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "dsczs",
+        "label": "第五才子書水滸傳",
+        "era": "清刻本",
+        "license": "pd",
+        "commons": "劉唐（第五才子書水滸傳）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/liu-tang-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "li-kui": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 李逵.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "李逵（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "dsczs",
+        "label": "第五才子書水滸傳",
+        "era": "清刻本",
+        "license": "pd",
+        "commons": "李逵（第五才子書水滸傳）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/li-kui-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "shi-jin": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 史進 and 陳達.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "史進（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "dsczs",
+        "label": "第五才子書水滸傳",
+        "era": "清刻本",
+        "license": "pd",
+        "commons": "史進（第五才子書水滸傳）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/shi-jin-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "chen-da": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 陳達.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/chen-da-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "lei-heng": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 雷橫.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "雷橫（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "dsczs",
+        "label": "第五才子書水滸傳",
+        "era": "清刻本",
+        "license": "pd",
+        "commons": "雷橫（第五才子書水滸傳）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/lei-heng-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "li-jun": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 李俊.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "李俊（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "dsczs",
+        "label": "第五才子書水滸傳",
+        "era": "清刻本",
+        "license": "pd",
+        "commons": "李俊（第五才子書水滸傳）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/li-jun-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "ruan-xiao-er": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 阮小二.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/ruan-xiao-er-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "zhang-heng": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 張橫.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/zhang-heng-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "ruan-xiao-wu": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 阮小五.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/ruan-xiao-wu-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "zhang-shun": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 張順.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "張顺（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "dsczs",
+        "label": "第五才子書水滸傳",
+        "era": "清刻本",
+        "license": "pd",
+        "commons": "張順（第五才子書水滸傳）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/zhang-shun-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "ruan-xiao-qi": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 阮小七.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "阮小七（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/ruan-xiao-qi-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "yang-xiong": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 楊雄.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/yang-xiong-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "shi-xiu": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 石秀.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "石秀（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/shi-xiu-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "jie-zhen": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 解珍.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "觧珍（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "dsczs",
+        "label": "第五才子書水滸傳",
+        "era": "清刻本",
+        "license": "pd",
+        "commons": "解珎（第五才子書水滸傳）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/jie-zhen-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "zhu-wu": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 朱武.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "朱武（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "dsczs",
+        "label": "第五才子書水滸傳",
+        "era": "清刻本",
+        "license": "pd",
+        "commons": "朱武（第五才子書水滸傳）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/zhu-wu-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "huang-xin": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 黃信.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/huang-xin-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "sun-li": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 孫立.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/sun-li-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "xuan-zan": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 宣贊.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/xuan-zan-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "hao-si-wen": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 郝思文.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/hao-si-wen-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "peng-qi": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 彭玘.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/peng-qi-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "xiao-rang": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 蕭讓.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "萧讓（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/xiao-rang-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "ou-peng": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 歐鵬.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/ou-peng-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "ling-zhen": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 凌振.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/ling-zhen-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "lv-fang": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 呂方.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/lv-fang-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "guo-sheng": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 郭盛.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/guo-sheng-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "an-dao-quan": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 安道全.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "安道全（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/an-dao-quan-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "wang-ying": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 王英.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/wang-ying-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "hu-san-niang": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 扈三娘.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "扈三娘（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "dsczs",
+        "label": "第五才子書水滸傳",
+        "era": "清刻本",
+        "license": "pd",
+        "commons": "扈三娘（第五才子書水滸傳）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/hu-san-niang-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "fan-rui": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 樊瑞.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "樊瑞（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/fan-rui-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "kong-ming": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 孔明.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/kong-ming-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "li-gun": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 李袞.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/li-gun-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "ma-lin": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 馬麟.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/ma-lin-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "zheng-tian-shou": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 鄭天壽.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/zheng-tian-shou-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "ding-de-sun": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 丁得孫.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/ding-de-sun-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "cao-zheng": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 曹正.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/cao-zheng-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "du-qian": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 杜遷.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/du-qian-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "li-zhong": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 李忠.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/li-zhong-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "tang-long": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 湯隆.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/tang-long-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "du-xing": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 杜興.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/du-xing-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "zou-yuan": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 鄒淵.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/zou-yuan-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "zou-run": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 鄒潤.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/zou-run-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "shi-yong": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 石勇.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/shi-yong-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "gu-da-sao": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 顧大嫂.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "頋大嫂（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/gu-da-sao-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "wang-ding-liu": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 王定六.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/wang-ding-liu-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "bai-sheng": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 白勝.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/bai-sheng-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "shi-qian": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 -時遷.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "時遷（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "dsczs",
+        "label": "第五才子書水滸傳",
+        "era": "清刻本",
+        "license": "pd",
+        "commons": "時遷（第五才子書水滸傳）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/shi-qian-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "duan-jing-zhu": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 段景住.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/duan-jing-zhu-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "lu-jun-yi": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 盧俊義.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "盧俊義（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "dsczs",
+        "label": "第五才子書水滸傳",
+        "era": "清刻本",
+        "license": "pd",
+        "commons": "盧俊義（第五才子書水滸傳）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/lu-jun-yi-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "qin-ming": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 秦明.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "秦明（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/qin-ming-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "hu-yan-zhuo": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 呼延灼.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "呼延灼（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "dsczs",
+        "label": "第五才子書水滸傳",
+        "era": "清刻本",
+        "license": "pd",
+        "commons": "呼延灼（第五才子書水滸傳）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/hu-yan-zhuo-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "dong-ping": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 董平.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "董平（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/dong-ping-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "yang-chun": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 楊春.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/yang-chun-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "mu-hong": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 李逵 and 穆弘.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "穆弘（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/mu-hong-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "zhang-qing-caiyuan": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 張青 (菜園子).jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/zhang-qing-caiyuan-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "mu-chun": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 穆春 and 薛永.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/mu-chun-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "xue-yong": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 穆春 and 薛永.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/xue-yong-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "kong-liang": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 孔亮 and 宋萬.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/kong-liang-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "song-wan": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 孔亮 and 宋萬.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/song-wan-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "song-jiang": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Куниёси Утагава. Кохоги Соко (Сун Цзян) убивает Янь Поси.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "宋江（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "dsczs",
+        "label": "第五才子書水滸傳",
+        "era": "清刻本",
+        "license": "pd",
+        "commons": "宋江（第五才子書水滸傳）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/song-jiang-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "wu-yong": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Chitase Goyo 智多星吴用(Wu Yong) (BM 2008,3037.10011).jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "吳用（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "dsczs",
+        "label": "第五才子書水滸傳",
+        "era": "清刻本",
+        "license": "pd",
+        "commons": "吳用（第五才子書水滸傳）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/wu-yong-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "lu-zhi-shen": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Kaosho Roshishin 花和尚魯智深 (Flowery Monk Lu Zhishen) (BM 2008,3037.10213).jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "魯智深（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "dsczs",
+        "label": "第五才子書水滸傳",
+        "era": "清刻本",
+        "license": "pd",
+        "commons": "魯智深（第五才子書水滸傳）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/lu-zhi-shen-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "han-tao": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Jisaisei shichijyuniin 地煞星七十二員 Han Tao.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/han-tao-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "shan-ting-gui": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Jisaisei shichijyuniin 地煞星七十二員 Shan Tinggui.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/shan-ting-gui-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "wei-ding-guo": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Jisaisei shichijyuniin 地煞星七十二員 Wei Dingguo.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/wei-ding-guo-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "deng-fei": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Jisaisei shichijyuniin 地煞星七十二員 Deng Fei.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/deng-fei-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "yue-he": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Jisaisei shichijyuniin 地煞星七十二員Yue He.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/yue-he-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "yan-shun": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "歌川国芳による浮世絵「「水滸伝豪傑百八人 地☆星七十二員 八番内」」 Yan Shun.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/yan-shun-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "zhou-tong": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "歌川国芳による浮世絵「「水滸伝豪傑百八人 地☆星七十二員 八番内」」 Zhou Tong.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/zhou-tong-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "bao-xu": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "歌川国芳による浮世絵「「水滸伝豪傑百八人 地☆星七十二員 八番内」」 Bao Xu.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/bao-xu-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "tong-meng": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "水滸伝豪傑百八人 地煞星七十二員八番内 十二枚内三 Tong Meng.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/tong-meng-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "gong-wang": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "国芳 「水滸伝豪傑百八人 地煞星七十二員八枚内 十二枚内七」 龚旺.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/gong-wang-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "zhu-fu": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "国芳 「水滸伝豪傑百八人 地煞星七十二員八枚内 十二枚内七」 朱富.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/zhu-fu-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "jiang-jing": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "国芳 「水滸伝豪傑百八人 地煞星七十二員八枚内 十二枚内七」 蒋敬.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/jiang-jing-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "tao-zong-wang": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "国芳 「水滸伝豪傑百八人 地煞星七十二員八枚内 十二枚内七」 陶宗旺.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/tao-zong-wang-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "jiao-ting": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "国芳 「水滸伝豪傑百八人 地煞星七十二員八枚内 十二枚内七」 焦挺.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/jiao-ting-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "song-qing": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "国芳 「水滸伝豪傑百八人 地煞星七十二員八枚内 十二枚内七」 宋清.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/song-qing-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "cai-fu": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "国芳 Cai Fu.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/cai-fu-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "cai-qing": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "国芳 Cai Qing 01.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/cai-qing-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "yang-lin": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Kinhyoshi Yorin 錦豹子揚林 (Yang Lin) (BM 2008,3037.10028).jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/yang-lin-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "wu-song": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi - 水滸傳 - 武松.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "武松（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "dsczs",
+        "label": "第五才子書水滸傳",
+        "era": "清刻本",
+        "license": "pd",
+        "commons": "武松（第五才子書水滸傳）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/wu-song-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "yan-qing": [
+      {
+        "id": "kuniyoshi",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Utagawa Kuniyoshi 108 héroes Yan Qing el magnífico.jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "燕青（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "dsczs",
+        "label": "第五才子書水滸傳",
+        "era": "清刻本",
+        "license": "pd",
+        "commons": "燕青（第五才子書水滸傳）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/yan-qing-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "jie-bao": [
+      {
+        "id": "kuniyoshi-bm",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Sobikatsu Kaiho, Dokukakuryu Sujin 雙尾蠍解寶, 獨角龍鄒潤 (Xie Bao and Zou Run) (BM 2008,3037.10015).jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/jie-bao-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "xiang-chong": [
+      {
+        "id": "kuniyoshi-bm",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Happiinata Koju 八臂哪吒項充 (Xiang Chong) (BM 2008,3037.10042).jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/xiang-chong-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "zhu-gui": [
+      {
+        "id": "kuniyoshi-bm",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Kanchikotsuritsu Shuki 旱地忽律朱貴 (Zhu Gui) (BM 2008,3037.10025).jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/zhu-gui-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "sun-er-niang": [
+      {
+        "id": "kuniyoshi-bm",
+        "label": "歌川國芳《水滸傳》",
+        "artist": "歌川國芳",
+        "era": "1827–1830",
+        "license": "pd",
+        "commons": "Boyasha Sonnijo 母夜叉孫二娘 (The goodwife Sun) (BM 2008,3037.10005).jpg"
+      },
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "孫二娘（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "dsczs",
+        "label": "第五才子書水滸傳",
+        "era": "清刻本",
+        "license": "pd",
+        "commons": "孫二娘（第五才子書水滸傳）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/sun-er-niang-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "shi-en": [
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "施恩（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "dsczs",
+        "label": "第五才子書水滸傳",
+        "era": "清刻本",
+        "license": "pd",
+        "commons": "施恩（第五才子書水滸傳）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/shi-en-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "chai-jin": [
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "柴進（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/chai-jin-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "li-ying": [
+      {
+        "id": "xiuxiang",
+        "label": "繡像第五才子書",
+        "era": "明末清初刻本",
+        "license": "pd",
+        "commons": "李應（繡像第五才子書）.jpg"
+      },
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/li-ying-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "pei-xuan": [
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/pei-xuan-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "huang-fu-duan": [
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/huang-fu-duan-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "jin-da-jian": [
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/jin-da-jian-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "tong-wei": [
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/tong-wei-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "meng-kang": [
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/meng-kang-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "hou-jian": [
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/hou-jian-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "li-li": [
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/li-li-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "li-yun": [
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/li-yun-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "sun-xin": [
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/sun-xin-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ],
+    "yu-bao-si": [
+      {
+        "id": "ddb",
+        "label": "戴敦邦《水滸人物一百零八圖》",
+        "artist": "戴敦邦",
+        "era": "現代",
+        "license": "ref",
+        "file": "portraits/ref/yu-bao-si-ddb.jpg",
+        "sourceUrl": "https://zhuanlan.zhihu.com/p/551699283"
+      }
+    ]
+  }
+}

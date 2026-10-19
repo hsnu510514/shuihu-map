@@ -10,6 +10,9 @@ import { places } from './places'
 import { relationTypeMeta, relations } from './relations'
 import { captures, campaigns, fights, kills } from './deeds'
 import { allRankings } from '../lib/rankings'
+import { bios } from './bios'
+import { portraitsByFigure } from './portraits'
+import { buildProfile, figureGroupOf } from '../lib/figureProfile'
 
 describe('data integrity', () => {
   it('has 120 chapters and 108 heroes', () => {
@@ -278,6 +281,47 @@ describe('deeds data', () => {
         expect(campaign.toChapter, campaign.id).toBeGreaterThanOrEqual(campaign.fromChapter)
         expect(campaign.toChapter, campaign.id).toBeLessThanOrEqual(120)
       }
+    }
+  })
+})
+
+describe('biography data', () => {
+  it('references known figures and valid chapters in curated highlights', () => {
+    for (const [figureId, items] of Object.entries(bios)) {
+      expect(figureById[figureId], figureId).toBeDefined()
+      for (const item of items) {
+        expect(item.title.length, figureId).toBeGreaterThan(1)
+        expect(item.chapter, figureId).toBeGreaterThanOrEqual(1)
+        expect(item.chapter, figureId).toBeLessThanOrEqual(120)
+        if (item.eventId) {
+          expect(eventById[item.eventId], `${figureId}: ${item.eventId}`).toBeDefined()
+        }
+      }
+    }
+  })
+
+  it('references known figures and valid files in portraits', () => {
+    for (const [figureId, sources] of Object.entries(portraitsByFigure)) {
+      expect(figureById[figureId], figureId).toBeDefined()
+      for (const source of sources) {
+        expect(source.id.length, figureId).toBeGreaterThan(0)
+        expect(source.label.length, figureId).toBeGreaterThan(0)
+        expect(source.file.length, figureId).toBeGreaterThan(0)
+      }
+    }
+  })
+
+  it('builds a non-empty profile for every hero', () => {
+    for (const hero of heroes) {
+      const profile = buildProfile(hero.id)
+      expect(profile, hero.id).not.toBeNull()
+      expect(profile!.entries.length, hero.id).toBeGreaterThan(0)
+    }
+  })
+
+  it('assigns every figure to a valid group', () => {
+    for (const figure of figures) {
+      expect(['tiangang', 'disha', 'other']).toContain(figureGroupOf(figure))
     }
   })
 })

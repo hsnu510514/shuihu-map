@@ -7,11 +7,12 @@
 - **章回事件**：120 回時間軸；每一回至少一個事件；點事件在地圖上定位、高亮地點與小說行程。
 - **好漢行蹤**：同一條時間軸；108 位好漢依章回錨點定位；聚合標記、所在分組、個人行蹤軌跡、明載／推定區分。
  - **人物關係**：以具體劇情為據的節點關係圖，收錄好漢與主要非好漢角色；每條關係標註類型與劇情說明，並分成多個章回階段。全覽看陣營群像，點人物進入一度或二度聚焦；聚焦時點外圍人物，會列出兩人之間的重要互動事件，再可跳轉以對方為中心。底部時間軸可看關係的成立、轉變與結束。
- - **英雄榜**：多種排行榜（官職高低、座次、登場早晚、出場回數、互動數、被俘虜、打架勝負、明載殺人記錄、戰役參與與勝負）。左側分類可擴充；每榜標明統計方式與可靠度（高／中／低），點人物查看統計來源（章回＋原文），可跳轉章回事件。
- - **地名考證**：州府治所、縣鎮、山寨、虛構地名與小說錯置分別標示，地點卡可查看說明。
+- **英雄榜**：多種排行榜（官職高低、座次、登場早晚、出場回數、互動數、被俘虜、打架勝負、明載殺人記錄、戰役參與與勝負）。左側分類可擴充；每榜標明統計方式與可靠度（高／中／低），點人物查看統計來源（章回＋原文），可跳轉章回事件。
+- **人物誌**：左側人物選單（天罡／地煞／其他角色），擇一呈現其畫像、身分、生平、重大事蹟與完整編年。事蹟彙整自章回事件、互動、擒縱、單挑、殺伐、戰役與關係，並輔以人工策展重點；系統自動標舉「重大事蹟」（生涯高光）並保留全部「編年事蹟」，可依類型篩選，每條附出處並可跳轉章回。畫像可切換多個公版古本版本，無公版者以名號印記示意。
+- **地名考證**：州府治所、縣鎮、山寨、虛構地名與小說錯置分別標示，地點卡可查看說明。
 - **圖層開關**：圖例視窗可逐項勾選京城、州府、縣鎮、山岳、水泊、關隘、寺廟、河流、湖泊、行政區界（今省界示意）、好漢、小說行程、好漢行蹤與地名標籤。
 - **可捲動時間軸**：120 回以可橫向捲動／拖拽的畫布呈現，字級放大後仍可瀏覽全書脈絡。
-- **可分享網址**：`/story?chapter=39&event=ch039-xunyanglou`、`/heroes?chapter=114&hero=zhang-shun`、`/relations?chapter=50&figure=hu-san-niang`、`/rankings?list=captured&figure=li-kui`。
+- **可分享網址**：`/story?chapter=39&event=ch039-xunyanglou`、`/heroes?chapter=114&hero=zhang-shun`、`/relations?chapter=50&figure=hu-san-niang`、`/rankings?list=captured&figure=li-kui`、`/biographies?figure=wu-song`。
 - 響應式版面、鍵盤操作、`prefers-reduced-motion`、可縮放／平移的 SVG 地圖。
 
 ## 技術
@@ -48,6 +49,17 @@ npm run build:deeds     # 由 data/deeds/*.jsonl 產生 src/data/deeds.ts
 
 `data/deeds/*.jsonl` 為人工校訂後的抽取結果（進版控），`src/data/deeds.ts` 為自動生成檔，請勿手改。抽取為關鍵詞命中後人工校訂，非全量，結果標為可靠度低。
 
+### 人物畫像（公版）
+
+人物誌畫像取自公有領域古本，下載、裁切與縮圖後存放於 `public/portraits/`（進版控）：
+
+```bash
+npm run fetch:portraits   # 依 data/portraits/manifest.json 下載公版圖像至 public/portraits/
+npm run build:portraits   # 由 data/portraits/manifest.json 產生 src/data/portraits.ts
+```
+
+`data/portraits/manifest.json` 記錄每位人物各版本的畫家、年代、授權與出處；`src/data/portraits.ts` 為自動生成檔，請勿手改。無公版畫像者於前端以名號印記示意。
+
 ## 資料結構
 
 - `src/data/places.ts`：地點、今地、經緯度、精度、考證 note。
@@ -60,6 +72,8 @@ npm run build:deeds     # 由 data/deeds/*.jsonl 產生 src/data/deeds.ts
 - `src/data/interactions.ts`：兩人之間的重要互動事件；同一對人物可有多則，依章回排序，供關係圖的兩人面板顯示。
 - `data/deeds/*.jsonl`：全書抽取的英雄榜事實（被俘虜、單挑勝負、殺人記錄、戰役結果），每條附章回與原文；`src/data/deeds.ts` 為其自動生成檔。
 - `src/data/rankings.ts`：人工策展榜單（官職高低）與榜單分類。其餘榜單由 `src/lib/rankings.ts` 從事件、互動與 deeds 即時推導。
+- `src/data/bios.ts`：人物誌的人工策展重點事蹟；`src/lib/figureProfile.ts` 彙整單人畫像以外的全部事蹟。
+- `data/portraits/manifest.json`：人物畫像的公版來源（畫家、年代、授權、出處）；`src/data/portraits.ts` 為其自動生成檔，`public/portraits/` 存放下載縮圖。
 - `src/data/map/`：底圖 GeoJSON（Natural Earth 裁切）、手繪河流／湖泊／疆界／標籤。
 
 事件摘要、人物關係與地圖整理為本專案原創內容；回目為公有領域文本。好漢位置不是逐日行程：書中明載與推定會分開標示，未出場、陣亡、行蹤未載不上圖。人物關係只收錄有具體劇情描述者，同場出戰、同營共事不列；現已涵蓋一百單八將與主要非好漢角色，細節關係仍持續增補。
@@ -92,6 +106,8 @@ npm run build:deeds     # 由 data/deeds/*.jsonl 產生 src/data/deeds.ts
 - 維基百科「一百單八將」：座次、星號、初登場、入山與結局交叉核對。
 - 譚其驤主編《中國歷史地圖集》第六冊：州府位置與北宋水文參考。
 - 周岩壁〈《水滸傳》裡的地理學〉（光明日報，2013）：小說地理錯置參考。
+- 人物畫像（公有領域）：歌川國芳《通俗水滸傳豪傑百八人一個》（1827–1830）、《繡像第五才子書》、《第五才子書水滸傳》；同一人物可切換多版本，未收錄者以名號印記示意。
+- 參考圖層：public/portraits/ref/ 可另置非公版之劇照、英雄卡等，版權歸原權利人，不適用本站授權，僅供非商業賞析，侵權即移除。
 - [Natural Earth](https://www.naturalearthdata.com/about/terms-of-use/)：公有領域地圖資料。
 - Noto Serif TC／Noto Sans TC：SIL Open Font License。
 

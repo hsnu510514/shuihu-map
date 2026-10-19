@@ -46,6 +46,13 @@ export function AppHeader({ onOpenAbout }: AppHeaderProps) {
           英雄榜
           <small>榜單</small>
         </NavLink>
+        <NavLink
+          to="/biographies"
+          className={({ isActive }) => `mode-link${isActive ? ' active' : ''}`}
+        >
+          人物誌
+          <small>列傳</small>
+        </NavLink>
       </nav>
 
       <div className="header-actions">

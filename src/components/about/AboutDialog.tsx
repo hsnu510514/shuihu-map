@@ -58,6 +58,17 @@ export function AboutDialog({ open, onOpenChange }: AboutDialogProps) {
             </section>
 
             <section className="about-section">
+              <h2>人物誌</h2>
+              <ul>
+                <li>事蹟彙整自章回事件、互動、擒縱、單挑、殺伐、戰役與關係，並輔以人工策展重點。</li>
+                <li>系統自動標舉「重大事蹟」（生涯高光），另完整保留「編年事蹟」並可依類型篩選。</li>
+                <li>畫像優先採公有領域古本：歌川國芳《通俗水滸傳豪傑百八人一個》、《繡像第五才子書》、《第五才子書水滸傳》。</li>
+                <li>同一人物可切換不同版本畫像；未收錄公版畫像者，以名號印記示意。</li>
+                <li>另可置「參考圖層」（劇照、英雄卡等，版權歸原權利人，不適用本站授權）。</li>
+              </ul>
+            </section>
+
+            <section className="about-section">
               <h2>版本與文本</h2>
               <p>
                 章回依《水滸傳》一百二十回本；回目取自維基文庫公有領域文本。事件摘要與地圖整理為本專案原創內容。

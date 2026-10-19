@@ -1,6 +1,6 @@
 ﻿import { create } from 'zustand'
 
-export type AppMode = 'story' | 'heroes' | 'relations' | 'rankings'
+export type AppMode = 'story' | 'heroes' | 'relations' | 'rankings' | 'biographies'
 
 interface AppState {
   mode: AppMode

@@ -223,6 +223,21 @@ export interface RankingGroup {
   order: number
 }
 
+export interface BioHighlight {
+  chapter: number
+  endChapter?: number
+  title: string
+  detail: string
+  eventId?: string
+}
+
+export interface Achievement {
+  id: string
+  chapter?: number
+  text: string
+  eventId?: string
+}
+
 export interface DeedCapture {
   id: string
   figureId: string

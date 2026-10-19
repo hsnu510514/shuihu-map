@@ -279,6 +279,9 @@ function FigureDetail({
             好漢行蹤
           </button>
         )}
+        <button type="button" onClick={() => navigate(`/biographies?figure=${figure.id}`)}>
+          人物誌
+        </button>
         {figure.firstChapter && (
           <button type="button" onClick={() => setChapter(figure.firstChapter!)}>
             初登場章回
