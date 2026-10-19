@@ -5,6 +5,7 @@ import { Timeline } from './components/layout/Timeline'
 import { AboutDialog } from './components/about/AboutDialog'
 import { StoryPage } from './pages/StoryPage'
 import { HeroPage } from './pages/HeroPage'
+import { RelationsPage } from './pages/RelationsPage'
 import { useAppStore } from './store/appStore'
 import { applyUrlState } from './lib/urlState'
 
@@ -13,6 +14,7 @@ function useUrlState() {
   const chapter = useAppStore((state) => state.chapter)
   const selectedEventId = useAppStore((state) => state.selectedEventId)
   const selectedHeroId = useAppStore((state) => state.selectedHeroId)
+  const selectedFigureId = useAppStore((state) => state.selectedFigureId)
 
   useEffect(() => {
     const next = new URLSearchParams(params)
@@ -21,10 +23,12 @@ function useUrlState() {
     else next.delete('event')
     if (selectedHeroId) next.set('hero', selectedHeroId)
     else next.delete('hero')
+    if (selectedFigureId) next.set('figure', selectedFigureId)
+    else next.delete('figure')
     if (next.toString() !== params.toString()) {
       setParams(next, { replace: true })
     }
-  }, [chapter, params, selectedEventId, selectedHeroId, setParams])
+  }, [chapter, params, selectedEventId, selectedFigureId, selectedHeroId, setParams])
 
   useEffect(() => {
     window.addEventListener('popstate', applyUrlState)
@@ -40,7 +44,11 @@ function App() {
   const mode = useAppStore((state) => state.mode)
 
   useEffect(() => {
-    const nextMode = location.pathname.startsWith('/heroes') ? 'heroes' : 'story'
+    const nextMode = location.pathname.includes('/relations')
+      ? 'relations'
+      : location.pathname.includes('/heroes')
+        ? 'heroes'
+        : 'story'
     if (useAppStore.getState().mode !== nextMode) {
       setMode(nextMode)
       applyUrlState()
@@ -50,7 +58,8 @@ function App() {
   useUrlState()
 
   useEffect(() => {
-    const modeLabel = mode === 'heroes' ? '好漢行蹤' : '章回事件'
+    const modeLabel =
+      mode === 'heroes' ? '好漢行蹤' : mode === 'relations' ? '人物關係' : '章回事件'
     document.title = `${modeLabel} · 第${chapter}回 · 水滸輿圖`
   }, [chapter, mode])
 
@@ -62,6 +71,7 @@ function App() {
           <Route path="/" element={<Navigate to="/story" replace />} />
           <Route path="/story" element={<StoryPage />} />
           <Route path="/heroes" element={<HeroPage />} />
+          <Route path="/relations" element={<RelationsPage />} />
           <Route path="*" element={<Navigate to="/story" replace />} />
         </Routes>
       </div>

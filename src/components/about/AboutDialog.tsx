@@ -48,6 +48,16 @@ export function AboutDialog({ open, onOpenChange }: AboutDialogProps) {
             </section>
 
             <section className="about-section">
+              <h2>人物關係</h2>
+              <ul>
+                <li>只收錄有情節根據的關係；同場出戰、同營共事不列。</li>
+                <li>同一對人物可分成多個章回階段，呈現結義、反目、婚配等變化。</li>
+                <li>每對人物另收重要互動事件，點圖上外圍人物即可逐條查看。</li>
+                <li>每段關係與互動皆附出處事件；現已涵蓋一百單八將與主要非好漢角色，細節仍持續增補。</li>
+              </ul>
+            </section>
+
+            <section className="about-section">
               <h2>版本與文本</h2>
               <p>
                 章回依《水滸傳》一百二十回本；回目取自維基文庫公有領域文本。事件摘要與地圖整理為本專案原創內容。

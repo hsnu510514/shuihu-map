@@ -32,6 +32,13 @@ export function AppHeader({ onOpenAbout }: AppHeaderProps) {
           好漢行蹤
           <small>行蹤</small>
         </NavLink>
+        <NavLink
+          to="/relations"
+          className={({ isActive }) => `mode-link${isActive ? ' active' : ''}`}
+        >
+          人物關係
+          <small>關係</small>
+        </NavLink>
       </nav>
 
       <div className="header-actions">

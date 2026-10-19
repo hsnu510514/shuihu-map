@@ -1,4 +1,5 @@
 import { eventById } from '../data/events'
+import { figureById } from '../data/figures'
 import { heroById } from '../data/heroes'
 import { useAppStore } from '../store/appStore'
 
@@ -22,5 +23,10 @@ export function applyUrlState() {
   if (window.location.pathname.includes('/heroes')) {
     const heroId = params.get('hero')
     if (heroId && heroById[heroId]) state.selectHero(heroId)
+  }
+  if (window.location.pathname.includes('/relations')) {
+    const figureId = params.get('figure')
+    if (figureId && figureById[figureId]) state.selectFigure(figureId)
+    else state.selectFigure(null)
   }
 }

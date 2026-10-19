@@ -101,3 +101,74 @@ export interface HeroAnchor {
   confidence: 'text' | 'inferred'
   note?: string
 }
+
+export interface Character {
+  id: string
+  name: string
+  aliases?: string[]
+  affiliation: string
+  role: string
+  firstChapter?: number
+  note?: string
+}
+
+export type FigureKind = 'hero' | 'character'
+
+export interface Figure {
+  id: string
+  name: string
+  aliases?: string[]
+  nickname?: string
+  affiliation: string
+  role: string
+  kind: FigureKind
+  rank?: number
+  star?: string
+  firstChapter?: number
+  note?: string
+}
+
+export type RelationType =
+  | 'kinship'
+  | 'marriage'
+  | 'sworn'
+  | 'master'
+  | 'patronage'
+  | 'friendship'
+  | 'romance'
+  | 'subordinate'
+  | 'alliance'
+  | 'rivalry'
+  | 'enmity'
+  | 'other'
+
+export interface RelationPhase {
+  fromChapter: number
+  toChapter?: number
+  type: RelationType
+  label: string
+  summary: string
+  quote?: string
+  eventId?: string
+  certainty: 'text' | 'inferred'
+}
+
+export interface Relation {
+  id: string
+  a: string
+  b: string
+  directed?: boolean
+  phases: RelationPhase[]
+}
+
+export interface Interaction {
+  id: string
+  a: string
+  b: string
+  chapter: number
+  endChapter?: number
+  label: string
+  summary: string
+  eventId?: string
+  quote?: string
+}
