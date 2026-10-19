@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#e7dcc6"/>
+  <rect x="7" y="7" width="50" height="50" fill="#9c3128"/>
+  <rect x="11" y="11" width="42" height="42" fill="none" stroke="#f1e8d6" stroke-width="1.5" opacity="0.55"/>
+  <text x="32" y="28" text-anchor="middle" fill="#f1e8d6" font-family="serif" font-size="19" font-weight="700">水</text>
+  <text x="32" y="49" text-anchor="middle" fill="#f1e8d6" font-family="serif" font-size="19" font-weight="700">滸</text>
+</svg>

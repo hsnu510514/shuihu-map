@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#211e19" />
+    <meta
+      name="description"
+      content="水滸輿圖：以《水滸傳》一百二十回為時間軸的互動地圖，瀏覽章回事件、宋代地名與梁山好漢行蹤。"
+    />
+    <meta property="og:title" content="水滸輿圖 · 梁山泊英雄行跡" />
+    <meta
+      property="og:description"
+      content="以《水滸傳》一百二十回為時間軸的互動地圖，瀏覽章回事件、宋代地名與梁山好漢行蹤。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="%BASE_URL%og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="水滸輿圖：一百單八將在梁山泊聚合的地圖畫面" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="水滸輿圖 · 梁山泊英雄行跡" />
+    <meta
+      name="twitter:description"
+      content="以《水滸傳》一百二十回為時間軸的互動地圖，瀏覽章回事件、宋代地名與梁山好漢行蹤。"
+    />
+    <meta name="twitter:image" content="%BASE_URL%og.png" />
+    <title>水滸輿圖 · 梁山泊英雄行跡</title>
+    <script>
+      ;(function (location) {
+        if (location.search[1] === '/') {
+          var decoded = location.search
+            .slice(1)
+            .split('&')
+            .map(function (segment) {
+              return segment.replace(/~and~/g, '&')
+            })
+            .join('?')
+          window.history.replaceState(null, null, location.pathname.slice(0, -1) + decoded + location.hash)
+        }
+      })(window.location)
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
