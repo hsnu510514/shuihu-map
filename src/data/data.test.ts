@@ -8,6 +8,8 @@ import { interactions } from './interactions'
 import { anchorsForHero, resolveHeroState, statesForChapter } from './heroPositions'
 import { places } from './places'
 import { relationTypeMeta, relations } from './relations'
+import { captures, campaigns, fights, kills } from './deeds'
+import { allRankings } from '../lib/rankings'
 
 describe('data integrity', () => {
   it('has 120 chapters and 108 heroes', () => {
@@ -196,6 +198,85 @@ describe('hero positions', () => {
         expect(anchor.chapter).toBeGreaterThanOrEqual(1)
         expect(anchor.chapter).toBeLessThanOrEqual(120)
         if (anchor.placeId) expect(placeIds.has(anchor.placeId), `${hero.id}: ${anchor.placeId}`).toBe(true)
+      }
+    }
+  })
+})
+
+describe('rankings data', () => {
+  it('has unique ranking ids with non-empty entries', () => {
+    expect(new Set(allRankings.map((category) => category.id)).size).toBe(allRankings.length)
+    for (const category of allRankings) {
+      expect(category.entries.length, category.id).toBeGreaterThan(0)
+      expect(category.name.length, category.id).toBeGreaterThan(1)
+      expect(category.description.length, category.id).toBeGreaterThan(8)
+    }
+  })
+
+  it('references known figures and valid chapters and events in sources', () => {
+    for (const category of allRankings) {
+      const keys = category.entries.map((entry) => entry.id ?? entry.figureId)
+      expect(new Set(keys).size, category.id).toBe(keys.length)
+      for (const entry of category.entries) {
+        expect(figureById[entry.figureId], `${category.id}: ${entry.figureId}`).toBeDefined()
+        expect(entry.value, `${category.id}: ${entry.figureId}`).toBeGreaterThanOrEqual(0)
+        for (const source of entry.sources) {
+          expect(source.chapter, `${category.id}: ${entry.figureId}`).toBeGreaterThanOrEqual(1)
+          expect(source.chapter, `${category.id}: ${entry.figureId}`).toBeLessThanOrEqual(120)
+          if (source.eventId) {
+            expect(eventById[source.eventId], `${category.id}: ${source.eventId}`).toBeDefined()
+          }
+        }
+      }
+    }
+  })
+})
+
+describe('deeds data', () => {
+  const chaptersOk = (id: string, chapter: number) => {
+    expect(chapter, id).toBeGreaterThanOrEqual(1)
+    expect(chapter, id).toBeLessThanOrEqual(120)
+  }
+
+  it('has unique capture ids referencing known figures and chapters', () => {
+    expect(new Set(captures.map((capture) => capture.id)).size).toBe(captures.length)
+    for (const capture of captures) {
+      expect(figureById[capture.figureId], capture.id).toBeDefined()
+      if (capture.captorId) expect(figureById[capture.captorId], capture.id).toBeDefined()
+      chaptersOk(capture.id, capture.chapter)
+    }
+  })
+
+  it('has unique, resolvable fight records', () => {
+    expect(new Set(fights.map((fight) => fight.id)).size).toBe(fights.length)
+    for (const fight of fights) {
+      expect(figureById[fight.winner], fight.id).toBeDefined()
+      expect(figureById[fight.loser], fight.id).toBeDefined()
+      expect(fight.winner).not.toBe(fight.loser)
+      chaptersOk(fight.id, fight.chapter)
+    }
+  })
+
+  it('has unique kill records with known killers', () => {
+    expect(new Set(kills.map((kill) => kill.id)).size).toBe(kills.length)
+    for (const kill of kills) {
+      expect(figureById[kill.figureId], kill.id).toBeDefined()
+      expect(kill.victims.length, kill.id).toBeGreaterThan(0)
+      chaptersOk(kill.id, kill.chapter)
+    }
+  })
+
+  it('has unique campaigns with known participants', () => {
+    expect(new Set(campaigns.map((campaign) => campaign.id)).size).toBe(campaigns.length)
+    for (const campaign of campaigns) {
+      expect(campaign.participants.length, campaign.id).toBeGreaterThan(0)
+      for (const participant of campaign.participants) {
+        expect(figureById[participant], `${campaign.id}: ${participant}`).toBeDefined()
+      }
+      chaptersOk(campaign.id, campaign.fromChapter)
+      if (campaign.toChapter !== undefined) {
+        expect(campaign.toChapter, campaign.id).toBeGreaterThanOrEqual(campaign.fromChapter)
+        expect(campaign.toChapter, campaign.id).toBeLessThanOrEqual(120)
       }
     }
   })

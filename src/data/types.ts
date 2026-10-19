@@ -172,3 +172,95 @@ export interface Interaction {
   eventId?: string
   quote?: string
 }
+
+export type RankingBasis = 'text' | 'inferred' | 'editorial'
+
+export type RankingDirection = 'desc' | 'asc'
+
+export type RankingReliability = 'high' | 'medium' | 'low'
+
+export interface RankingMetric {
+  key: string
+  name: string
+  unit?: string
+}
+
+export interface RankingSource {
+  chapter: number
+  eventId?: string
+  quote?: string
+  note?: string
+}
+
+export interface RankingEntry {
+  id?: string
+  figureId: string
+  value: number
+  display?: string
+  note?: string
+  metrics?: Record<string, number>
+  sources: RankingSource[]
+}
+
+export interface RankingCategory {
+  id: string
+  name: string
+  group: string
+  description: string
+  basis: RankingBasis
+  reliability?: RankingReliability
+  direction: RankingDirection
+  unit?: string
+  metrics?: RankingMetric[]
+  bar?: boolean
+  topN?: number
+  entries: RankingEntry[]
+}
+
+export interface RankingGroup {
+  id: string
+  name: string
+  order: number
+}
+
+export interface DeedCapture {
+  id: string
+  figureId: string
+  captorId?: string
+  chapter: number
+  note?: string
+  quote?: string
+}
+
+export type FightMode = '單挑' | '陣前' | '擂台' | '私鬥'
+
+export interface DeedFight {
+  id: string
+  winner: string
+  loser: string
+  chapter: number
+  mode: FightMode
+  note?: string
+  quote?: string
+}
+
+export interface DeedKill {
+  id: string
+  figureId: string
+  chapter: number
+  victims: string[]
+  count?: number
+  note?: string
+  quote?: string
+}
+
+export interface DeedCampaign {
+  id: string
+  name: string
+  fromChapter: number
+  toChapter?: number
+  outcome: 'win' | 'loss'
+  participants: string[]
+  note?: string
+  quote?: string
+}

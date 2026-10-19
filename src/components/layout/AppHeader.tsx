@@ -39,6 +39,13 @@ export function AppHeader({ onOpenAbout }: AppHeaderProps) {
           人物關係
           <small>關係</small>
         </NavLink>
+        <NavLink
+          to="/rankings"
+          className={({ isActive }) => `mode-link${isActive ? ' active' : ''}`}
+        >
+          英雄榜
+          <small>榜單</small>
+        </NavLink>
       </nav>
 
       <div className="header-actions">

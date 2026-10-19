@@ -1,6 +1,7 @@
 import { eventById } from '../data/events'
 import { figureById } from '../data/figures'
 import { heroById } from '../data/heroes'
+import { rankingById, rankingEntryKeys } from './rankings'
 import { useAppStore } from '../store/appStore'
 
 const TOTAL = 120
@@ -28,5 +29,13 @@ export function applyUrlState() {
     const figureId = params.get('figure')
     if (figureId && figureById[figureId]) state.selectFigure(figureId)
     else state.selectFigure(null)
+  }
+  if (window.location.pathname.includes('/rankings')) {
+    const rankingId = params.get('list')
+    if (rankingId && rankingById[rankingId]) state.selectRanking(rankingId)
+    const figureId = params.get('figure')
+    if (figureId && (figureById[figureId] || rankingEntryKeys.has(figureId))) {
+      state.selectFigure(figureId)
+    }
   }
 }

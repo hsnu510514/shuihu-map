@@ -25,6 +25,7 @@ dist-ssr
 
 # Local verification artifacts
 screens/
+.cache/
 dev.pid
 dev.log
 dev.err

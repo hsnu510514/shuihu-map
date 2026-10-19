@@ -10,7 +10,10 @@
     "preview": "vite preview",
     "test": "vitest run",
     "typecheck": "tsc -b",
-    "validate:data": "vitest run src/data/data.test.ts"
+    "validate:data": "vitest run src/data/data.test.ts",
+    "fetch:text": "node scripts/fetch-shuihu.mjs",
+    "extract:deeds": "node scripts/extract-deeds.mjs",
+    "build:deeds": "node scripts/build-deeds.mjs"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.3.1",
