@@ -9,10 +9,12 @@ import { anchorsForHero, resolveHeroState, statesForChapter } from './heroPositi
 import { places } from './places'
 import { relationTypeMeta, relations } from './relations'
 import { captures, campaigns, fights, kills } from './deeds'
-import { allRankings } from '../lib/rankings'
+import { allRankings, buildProfile, configureAtlas, figureGroupOf } from '@atlas/engine'
 import { bios } from './bios'
 import { portraitsByFigure } from './portraits'
-import { buildProfile, figureGroupOf } from '../lib/figureProfile'
+import { content } from '..'
+
+configureAtlas(content)
 
 describe('data integrity', () => {
   it('has 120 chapters and 108 heroes', () => {

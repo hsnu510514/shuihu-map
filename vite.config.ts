@@ -6,6 +6,9 @@ export default defineConfig(({ mode }) => {
   return {
     base: process.env.VITE_BASE_PATH || env.VITE_BASE_PATH || '/',
     plugins: [react()],
+    resolve: {
+      dedupe: ['react', 'react-dom'],
+    },
     build: {
       target: 'es2022',
       assetsInlineLimit: 2048,
